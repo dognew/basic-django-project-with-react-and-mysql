@@ -1,0 +1,208 @@
+/* Estilos para o header */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #007bff;
+    font-size: 24px;
+  }
+  
+  /* Estilos para as perguntas */
+  p {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  /* Estilos para os botões de resposta */
+  button {
+    background-color: #df1010;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #24272b;
+  }
+  
+  /* Estilos para botões selecionados no teste */
+  button.selected {
+    background-color: #28a745; /* Cor para botões selecionados */
+  }
+  
+  /* Estilos para os botões de ação */
+  .action-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .action-buttons button {
+    background-color: #333;
+    color: white;
+    margin: 0 10px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .action-buttons button:hover {
+    background-color: #555;
+  }
+  
+  /* Estilos para o resultado */
+  .result {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 20px;
+  }
+/* Estilo global para o body */
+body {
+    margin: 0; /* Remove margens padrão do body */
+    padding: 0; /* Remove preenchimento padrão do body */
+    background-color: transparent; /* Define o fundo do body como transparente */
+  }
+  
+  /* Restante do seu estilo CSS */
+  /* ... */
+/* Estilos para o TestimonialsTab */
+.tab-content {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .testimonial-form {
+    margin-bottom: 20px;
+  }
+  
+  .testimonial-form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    resize: vertical;
+  }
+  
+  .testimonial-form button {
+    background-color: #2e3033;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .testimonial-form button:hover {
+    background-color: #101111;
+  }
+  
+  .testimonial-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .testimonial-list li {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .testimonial-list button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .testimonial-list button:hover {
+    background-color: #c82333;
+  }
+/* Estilos para o ProfessionalsTab */
+.professional-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .professional-list li {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+  }
+  
+  .professional-list h3 {
+    margin-top: 0;
+  }
+  
+  .professional-list p {
+    margin: 5px 0;
+  }
+
+/* Estilo global para o body com a imagem de fundo e efeito de desfoque */
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(https://img.freepik.com/fotos-gratis/nuvem-branca-no-ceu-azul-e-mar_74190-4488.jpg?q=10&h=200); /* Substitua pelo URL da imagem que você deseja usar */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    backdrop-filter: blur(10px); /* Adicione o valor do desfoque desejado */
+  }
+  /* styles.css */
+
+.question-text {
+    text-align: left;
+  }
+/* styles.css */
+
+.options {
+    display: inline-block;
+    margin-left: 10px;
+  }
+/* styles.css */
+
+.question-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .question-text {
+    flex: 1;
+    margin: 0;
+  }
+  
+  .options {
+    margin-left: 10px;
+  }
+  .question-separator {
+    margin: 10px 0;
+    border: none;
+    border-top: 1px solid #ccc;
+  }
+
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #db1818;
+    font-size: 44px;
+  }
+        
