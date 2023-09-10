@@ -1,10 +1,12 @@
 import React from 'react';
+import minhaImagem2 from './Imagens/professi.jpg';
 
 function PreventionTab() {
   return (
-    <div>
-    <h3>Dicas de Prevenção para a Síndrome de Burnout</h3>
-    <ul>
+    <div className="prevention-tab-container">
+      <div className="text-container">
+        <h3>Dicas de Prevenção para a Síndrome de Burnout</h3>
+        <ul>
         <li>Mantenha um equilíbrio saudável entre trabalho e vida pessoal.</li>
         <li>Estabeleça limites claros para o seu tempo de trabalho e descanso.</li>
         <li>Pratique atividades físicas regularmente para aliviar o estresse.</li>
@@ -26,12 +28,30 @@ function PreventionTab() {
         <li>Busque orientação de um profissional de carreira para planejar seu desenvolvimento profissional.</li>
         <li>Promova momentos de desconexão digital para recarregar energia.</li>
     </ul>
+    </div>
     
-    <p>
-        
-      <img src="https://www.provepsico.com.br/wp-content/uploads/2021/08/Burnout.jpg" alt="Imagem de relaxamento" />
-        
-    </p>
+   
+  <div className="image2"> 
+  <img
+          src={minhaImagem2}  // Substitua pelo caminho da sua imagem
+          alt="Descrição da imagem"
+          width="300"
+    height="350"
+        /> </div>
+
+
+  <div className="image-container">
+  <h2>Ouça esse podcast e saiba tudo sobre o Burnout</h2>
+  <iframe
+    width="450"
+    height="380"
+    src="https://www.youtube.com/embed/TuGbn-9jK1g?si=DcwmWO4SUTVcsMCj"
+    title="YouTube video player"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowFullScreen
+  ></iframe>
+</div>
     </div>
   );
 }

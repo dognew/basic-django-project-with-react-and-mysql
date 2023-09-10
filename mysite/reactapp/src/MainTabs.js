@@ -6,7 +6,7 @@ import TestimonialsTab from './TestimonialsTab';
 
 
 function MainTabs() {
-  const [activeTab, setActiveTab] = useState('test');
+  const [activeTab, setActiveTab] = useState('prevention');
 
   const renderTab = () => {
     switch (activeTab) {
@@ -27,7 +27,7 @@ function MainTabs() {
   return (
     <div>
       <nav>
-        <button onClick={() => setActiveTab('prevention')}>Dicas de Prevenção</button>
+        <button onClick={() => setActiveTab('prevention')}>Como Prevenir</button>
         <button onClick={() => setActiveTab('test')}>Teste de Burnout</button>
         <button onClick={() => setActiveTab('professionals')}>Buscar Profissionais</button>
         <button onClick={() => setActiveTab('testimonials')}>Depoimentos</button>
